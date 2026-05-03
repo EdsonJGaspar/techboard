@@ -33,12 +33,16 @@ const FormularioDoEvento = () => {
       <h2 className="text-xl">Preencha para criar um evento</h2>
       <div className="w-full space-y-4">
         <fieldset className="flex flex-col gap-2">
-          <label>Qual e o nome do evento?</label>
-          <InputFormEvento type="text" placeholder="Summer dev hits" />
+          <label htmlFor="evento">Qual e o nome do evento?</label>
+          <InputFormEvento
+            id="evento"
+            type="text"
+            placeholder="Summer dev hits"
+          />
         </fieldset>
         <fieldset className="flex flex-col gap-2">
-          <label>Data do evento</label>
-          <InputFormEvento type="date" />
+          <label htmlFor="data">Data do evento</label>
+          <InputFormEvento id="data" type="date" />
         </fieldset>
         <fieldset className="flex flex-col gap-2">
           <label>Tema do evento?</label>
