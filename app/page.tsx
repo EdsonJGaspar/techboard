@@ -5,8 +5,8 @@ import { SelectFormEvento } from "@/components/form-event/select-event";
 import { InputFormEvento } from "@/components/form-event/input-event";
 export default function Home() {
   return (
-    <main>
-      <header className="bg-[#06151A]">
+    <main className="bg-[#06151A] border">
+      <header>
         <div className="w-7xl mx-auto flex items-center justify-center  py-8">
           <Image src={imgLogo} alt="Logo" />
         </div>
@@ -20,7 +20,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section>
+      <section className="w-7xl mx-auto ">
         <FormularioDoEvento />
       </section>
     </main>
