@@ -19,6 +19,11 @@ export default function Home() {
             className="max-h-[70vh] h-full object-contain w-auto"
           />
         </div>
+        <div>
+          <h1 className="text-4xl text-center text-white font-bold mb-4">
+            Crie seu evento e compartilhe com o mundo!
+          </h1>
+        </div>
       </section>
       <section className="w-7xl mx-auto ">
         <FormularioDoEvento />
